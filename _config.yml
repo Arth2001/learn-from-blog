@@ -1,0 +1,55 @@
+# Site settings
+title: Hacker Blog                    # The title of your blog
+description: A blog about tech, coding, and more!  # A short description of your blog
+url: https://yourdomain.com              # Your site's URL (with HTTPS)
+baseurl: ""                              # Base URL for your site, adjust if hosted in a subdirectory
+author: "Arth Doshi"                      # Author's name
+
+# Build settings
+markdown: kramdown                       # Markdown processor
+permalink: /:categories/:year/:month/:day/:title/  # URL structure
+paginate: 5                               # Number of posts per page for pagination
+paginate_path: "/page/:num/"              # Pagination path
+
+# Social Media Links
+social:
+  twitter: your_twitter_handle            # Twitter username (without @)
+  github: your_github_username            # GitHub username
+  facebook: your_facebook_profile         # Facebook profile link
+
+# Plugins
+plugins:
+  - jekyll-feed                           # Adds RSS feed
+  - jekyll-seo-tag                        # SEO tags
+  - jekyll-paginate                       # Pagination support
+  - jekyll-sitemap                        # Generates sitemap.xml
+
+# Exclude from the build
+exclude:
+  - Gemfile                               # Exclude the Gemfile
+  - Gemfile.lock                          # Exclude Gemfile.lock
+  - README.md                             # Exclude README file
+  - _drafts                               # Exclude draft files
+
+# Theme
+theme: minima                             # Change this to your preferred theme
+
+# Markdown options
+kramdown:
+  input: GFM                              # Use GitHub Flavored Markdown
+  syntax_highlighter: rouge               # Syntax highlighter
+
+# Customizing the RSS feed
+feed:
+  path: feed.xml                          # Path for the RSS feed
+
+# Specify the defaults for posts
+defaults:
+  - scope:
+      path: ""                            # Applies to all files in the root directory
+      type: "posts"                       # Applies to posts
+    values:
+      layout: "post"                      # Default layout for posts
+
+# Other optional settings
+# Specify any additional settings or variables you want to use in your blog

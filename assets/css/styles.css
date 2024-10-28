@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Hacker-like font */
+    background-color: #1e1e1e; /* Dark background */
+    color: #33ff33; /* Bright green text */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #33ff33;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Yellow hover effect */
+}
+
+main {
+    background-color: #2e2e2e; /* Slightly lighter background for the main content */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+/* Styles for blog posts */
+h2 {
+    color: #ffcc00; /* Yellow for blog post titles */
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    border-bottom: 1px solid #33ff33; /* Green divider for each post */
+    padding: 10px 0;
+}
+
+ul li a {
+    color: #33ff33; /* Link color */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
