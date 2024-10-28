@@ -1,5 +1,5 @@
 # Site settings
-title: Hacker Blog                    # The title of your blog
+title: Hackers Blog                    # The title of your blog
 description: A blog about tech, coding, and more!  # A short description of your blog
 url: https://yourdomain.com              # Your site's URL (with HTTPS)
 baseurl: ""                              # Base URL for your site, adjust if hosted in a subdirectory
